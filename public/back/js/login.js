@@ -89,9 +89,7 @@ $(function(){
         // 帐号错误
         if(info.error===1000){
           $('#form').data("bootstrapValidator").updateStatus("username","INVALID","callback");
-        }
-        // 密码错误
-        if(info.error===1001){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
           $('#form').data("bootstrapValidator").updateStatus("password","INVALID","callback");
 
         }

@@ -74,7 +74,7 @@ ul {
 }
 .lt_main {
   width: 100%;
-  background-color: pink;
+  background-color: #fff;
   padding-left: 180px;
   padding-top: 50px;
   height: 1200px;
@@ -95,13 +95,13 @@ ul {
 .lt_main .lt_topbar.hidemenu {
   left: 0;
 }
-.lt_main a {
+.lt_main .lt_topbar a {
   width: 50px;
   height: 50px;
   text-align: center;
   line-height: 50px;
 }
-.lt_main a i {
+.lt_main .lt_topbar a i {
   font-size: 20px;
   color: white;
 }
@@ -112,4 +112,15 @@ ul {
 .echarts_2 {
   width: 48%;
   height: 400px;
+}
+.red {
+  color: red;
+}
+.table.table-bordered th,
+.table.table-bordered td {
+  text-align: center;
+  vertical-align: middle;
+}
+.mt_20 {
+  margin-top: 20px;
 }
